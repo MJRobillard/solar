@@ -52,7 +52,7 @@ function Moon({ radius, color, x, y, z, orbitRadius, speed }) {
 
 function SolarSystem() {
   return (
-    <Canvas camera={{ position: [0, 0, 40] }} style={{ backgroundColor: 'black' }}>
+    <Canvas camera={{ position: [-2, 5, 10] }} style={{ backgroundColor: 'black' }}>
       <OrbitControls />
       <ambientLight intensity={0.1} />
       <pointLight position={[10, 10, 10]} intensity={1} />
